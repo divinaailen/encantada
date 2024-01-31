@@ -1,0 +1,116 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.makeup{
+  font-family: 'Pacifico', cursive;
+  color: #ef476f;
+  text-decoration: underline;
+}
+
+.belleza{
+  font-family: 'Cormorant Garamond', serif;
+  color: #d7a0a0;
+}
+
+.MINORISTA{
+  font-family: 'Cormorant Garamond', serif;
+  color: #d7a0a0;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #d7a0a0;
+}
+
+ 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    text-decoration: none;
+  }
+
+  .imagen-circular {
+    border-radius: 50%; /* Establece un radio del 50%, haciendo que la imagen sea circular */
+    width: 90px; /* Ajusta el ancho según tus necesidades */
+    height: 90px; /* Ajusta la altura según tus necesidades */
+  }
+  
+  .logo img {
+    width: 90px; /* Ajusta el tamaño de la imagen según lo necesites */
+    height: auto; /* Para mantener la proporción */
+  }
+  
+nav ul {
+    list-style-type:armenian;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+  background-color: #f3d1d1;
+    display: inline;
+    margin-right: 8px;
+    color: #ef476f;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+section{
+    text-align: center;
+    background-image:url("../img/pastel-white-and-pink-.jpg");
+    background-size: cover;
+}
+
+footer {
+    margin-top: 50px;
+    background-image:url("../img/pastel-white-and-pink-.jpg");
+    background-size: cover;
+}
+header{
+  background-image:url("../img/fondos-estetica.jpg");
+  background-size: cover;
+  text-align: center;
+}
+ .tarjeta{
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #d7a0a0;
+  text-align: center;
+  width: 300px;
+  font-family: 'Crimson Text', serif;
+ }
+ .texto{
+  width: 300px;
+}
+
+.main-tarjeta{
+  display:flex;
+  flex-wrap: wrap;
+}
